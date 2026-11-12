@@ -1,6 +1,6 @@
 # GENIE.AI 및 도구 구조
 
-## 개념 구분
+**사전 검증 안내:** [GENIE·Zindi·도시특화 시스템 Q&A 및 설치·테스트 계획](GENIE_QA_AND_TEST_PLAN.md) — GENIE 실설치 전, 공식 가이드 기반 설계.\n\n## 개념 구분
 
 - **LLM**: 문장 이해·요약·답변을 생성하는 언어모델. Qwen 등 오픈소스 모델을 선택해 구동 가능.
 - **GENIE.AI**: 정부·공공기관이 자체 데이터와 언어모델을 기반으로 문서 검색 및 질의응답(RAG) 등을 운영하기 위한 오픈소스 플랫폼. **도시 GIS나 건물 에너지 계산을 자체 완성 제공하는 프로그램은 아님.**
@@ -28,9 +28,9 @@
 
 - **1차 서술형 제안**: GENIE를 어디에, 왜 사용할지 아키텍처로 설명.
 - **1차 Zindi 시험**: GENIE 사용 요구 없음. 3B 이하 공개 생성모델과 허용된 도구로 범용 QA 엔진 작성.
-- **선정 후 시제품 단계**: GENIE 기반으로 실제 도시 업무 기능 구현·실증.
+- **선정 후 시제품 단계**: GENIE 기반으로 실제 도시 업무 기능 구현; 최종 선정 시 도시 실증으로 이어짐.
 
-## 검증할 쟁점
+## 사전 테스트 우선순위\n\n1. 별도 테스트 환경에서 GENIE 코어 UI·Keycloak·`/api/health`를 확인한다. GPU 없이 AI 질의응답은 실행되지 않는다는 점을 구분한다.\n2. 충분한 GPU와 모델 다운로드 권한이 확보될 때 OPEA·GPU 프로필로 실제 문서 근거 답변을 확인한다.\n3. 외부 GIS/에너지 계산용 더미 API 1개와 연결하고, 출처·단위·검수 가능성을 검증한다.\n4. 기존 AIRTECT 운영 서버/DB와는 분리하고 비용·권한·성능을 기록한다.\n\n자세한 명령과 통과기준: [테스트 계획](GENIE_QA_AND_TEST_PLAN.md).\n\n## 검증할 쟁점
 
 1. GENIE API·검색 엔진·권한 모델과 기존 ADK 도구의 연결 범위.
 2. 사용하는 공개 LLM의 로컬 실행 환경(GPU/메모리/언어 지원).
@@ -39,6 +39,6 @@
 
 ## 근거
 
-- [IEEE 모집안내: GENIE 사용 필수 / Zindi 시험 예외](https://ieeeht.org/get-involved/funding-opportunities/genai-for-good/)
+- [IEEE 모집안내: 현행 페이지 GENIE 사용 필수 / Zindi 시험 예외](https://ieeeht.org/get-involved/funding-opportunities/genai-for-good/)
 - [ITU GENIE.AI](https://www.itu.int/itu-d/sites/genieai/)
 - [GENIE 공식 개발 문서](https://genie-ai-7e342b.opensource.unicc.org/docs/get-started/welcome/)
