@@ -1,6 +1,6 @@
 # Zindi 기술시험 — 실전 체크
 
-**상태 (2026-11-10):** 공개 안내와 파일 목록만 검토. 실제 `Train.csv`, `Test.csv`의 행·문항 및 원천자료 **미다운로드·미분석**.
+**상태 (2026-11-12):** 공개 안내를 확인했고, 대화 내 업로드된 `Train.csv`·`Test.csv`·`SampleSubmission.md`·`StarterNotebook.ipynb`·`SourceManifest.csv`·`AllowedDatasets.csv`의 **파일 내용을 1차 검토**함. 공개 GitHub에는 파일 원본을 올리지 않음. `SourceMaterials.zip`의 실제 원천 파일은 미수령.
 
 ## 시험의 목적
 
@@ -10,13 +10,13 @@
 
 | 파일 | 목적 | 내부 내용 열람 |
 |---|---|---|
-| `Train.csv` | 정답 및 근거가 있는 개발용 문항 | 미확인 |
-| `Test.csv` | 정답이 없는 제출 대상 문항·맥락·소스 참조 | 미확인 |
-| `SampleSubmission.md` | 최종 Markdown 답변+근거 제출 구조 | 미확인 |
-| `StarterNotebook.ipynb` | 소형 모델 QA 베이스라인과 자료 로딩 예제 | 미확인 |
-| `SourceManifest.csv` | 소스 ID·파일명·라이선스·출처·해시 | 미확인 |
-| `AllowedDatasets.csv` | 사용 허용 데이터 및 Train/Test 용도 구분 | 미확인 |
-| 원천 자료 | PDF·표·지도·스캔·GIS 등을 포함하는 자료 묶음 | 미확인 |
+| `Train.csv` | 정답 및 근거가 있는 개발용 문항 | 대화 내 수령·1차 확인 |
+| `Test.csv` | 정답이 없는 제출 대상 문항·맥락·소스 참조 | 대화 내 수령·1차 확인 |
+| `SampleSubmission.md` | 최종 Markdown 답변+근거 제출 구조 | 대화 내 수령·1차 확인 |
+| `StarterNotebook.ipynb` | 소형 모델 QA 베이스라인과 자료 로딩 예제 | 대화 내 수령·1차 확인 |
+| `SourceManifest.csv` | 소스 ID·파일명·라이선스·출처·해시 | 대화 내 수령·1차 확인 |
+| `AllowedDatasets.csv` | 사용 허용 데이터 및 Train/Test 용도 구분 | 대화 내 수령·1차 확인 |
+| 원천 자료 | PDF·표·지도·스캔·GIS 등을 포함하는 자료 묶음 | 미수령 |
 
 웹페이지는 원천자료를 `SourceMaterials.zip`이라고 안내하나 실제 노출된 목록에는 `SRC_535ab8cab643__3dbag_page_a.json` (437.5MB) 등으로 나타날 수 있어 실제 다운로드 형식 확인이 필요하다.
 
@@ -39,8 +39,8 @@
 
 ## 준비 순서
 
-1. Zindi 로그인·참가 후 Train, Test, SampleSubmission, StarterNotebook 다운로드(팀 내부 승인 환경).
-2. Train의 실제 질문 유형/분포·출처·정답구조 정량 분석.
+1. 수령 파일의 열·문항 유형·제출 포맷 확인(수령한 원본은 비공개 환경에서만 관리).
+2. Train의 9개 예제와 실전 Test 600개 문제 분포를 분류하되, 원천파일이 필요한 계산은 원본 확보 후 검증.
 3. 허용 모델 1개 + 문서 인덱싱·표 계산·GIS 분석·근거 체크를 조합한 기준 파이프라인 구현.
 4. Train을 사용해 **정답 정확성 / 근거 정밀도 / 계산 단위 / 실행시간 / 비용·모델 호출 횟수** 검증.
 5. 제출 재현성을 위해 모델 버전·시드·의존성·처리 로그와 소스 매니페스트 해시 기록.
