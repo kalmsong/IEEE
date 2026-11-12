@@ -10,9 +10,9 @@ IEEE Humanitarian Technologies × UNDP의 **GenAI for Good Challenge: Cities Edi
 
 - **[v1 — 확정 백업](presentations/GenAI_for_Good_Kickoff_v1.html)**: v0.2와 v0.3을 병합했던 원본 27장. 내용·구조를 수정하지 않고 보존.
 - **[v1.1 — 편집 작업본](presentations/GenAI_for_Good_Kickoff_v1.1.html)**: 기존 27장 유지 + 근거 기반 2장 추가. 순서 재배치, 장수 및 내비게이션 개선, 비공개 Zindi 데이터에 대한 표현 정정.
-- [변경 이력](presentations/CHANGELOG.md)
+- **[v1.2 — 도시특화 AI Q&A + GENIE 사전 테스트](presentations/GenAI_for_Good_Kickoff_v1.2.html)**: 총 31장. 기존 29장 보존, 제안 대상과 기술평가의 구분 및 최소 GENIE 검증 범위 2장 추가.\n- [변경 이력](presentations/CHANGELOG.md)
 
-최신 발표자료는 저장소 루트 `index.html`에 별도 게시하며, 버전이 확정되면 해당 HTML을 `presentations/`에 보관합니다. HTML 파일은 브라우저에서 열어 한 장씩 넘기는 형식입니다. 키보드 방향키, 하단 이전·다음, 전체 목차를 지원합니다.
+**현재 Pages 최신 공개 버전은 v1.2**입니다. 최신 발표자료는 저장소 루트 `index.html`에 별도 게시하며, 버전이 확정되면 해당 HTML을 `presentations/`에 보관합니다. HTML 파일은 브라우저에서 열어 한 장씩 넘기는 형식입니다. 키보드 방향키, 하단 이전·다음, 전체 목차를 지원합니다.
 
 ## 연구 및 의사결정 자료
 
