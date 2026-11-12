@@ -6,11 +6,13 @@ IEEE Humanitarian Technologies × UNDP의 **GenAI for Good Challenge: Cities Edi
 
 ## 킥오프 발표자료
 
+- **[발표자료 바로 보기 — GitHub Pages](https://kalmsong.github.io/IEEE/)**: 항상 현재 공개한 최신 킥오프 발표자료를 여는 고정 주소입니다. GitHub Pages `main` 브랜치 `/ (root)` 설정이 필요합니다.
+
 - **[v1 — 확정 백업](presentations/GenAI_for_Good_Kickoff_v1.html)**: v0.2와 v0.3을 병합했던 원본 27장. 내용·구조를 수정하지 않고 보존.
 - **[v1.1 — 편집 작업본](presentations/GenAI_for_Good_Kickoff_v1.1.html)**: 기존 27장 유지 + 근거 기반 2장 추가. 순서 재배치, 장수 및 내비게이션 개선, 비공개 Zindi 데이터에 대한 표현 정정.
 - [변경 이력](presentations/CHANGELOG.md)
 
-HTML 파일은 브라우저에서 열어 한 장씩 넘기는 형식입니다. 키보드 방향키, 하단 이전·다음, 전체 목차를 지원합니다.
+최신 발표자료는 저장소 루트 `index.html`에 별도 게시하며, 버전이 확정되면 해당 HTML을 `presentations/`에 보관합니다. HTML 파일은 브라우저에서 열어 한 장씩 넘기는 형식입니다. 키보드 방향키, 하단 이전·다음, 전체 목차를 지원합니다.
 
 ## 연구 및 의사결정 자료
 
