@@ -1,6 +1,6 @@
 # 공모전 개요
 
-**확인일:** 2026-11-10  
+**확인일:** 2026-11-12  
 **상태:** 공식 모집 페이지 기준 요약. 변경될 수 있으므로 최종 제출 전 재확인.
 
 ## 목적
@@ -38,9 +38,9 @@ IEEE Humanitarian Technologies와 UNDP가 실제 도시의 문제를 오픈소�
 
 ## GENIE 규정
 
-IEEE 공식 모집페이지(2026-11-10 확인)는 **모든 팀이 GENIE.AI를 사용해야 한다**고 명시한다. 1차 서술형 제안서에는 활용 계획을 설명하면 되고, Zindi 기술시험에 GENIE를 사용할 필요는 없다고 별도 표기한다. **GENIE 의무 범위·타 프레임워크 병행 허용범위는 최종 지원 시 FAQ/주최 측에 재확인 권고.**
+IEEE 공식 모집페이지(2026-11-12 확인)는 **모든 팀이 GENIE.AI를 사용해야 한다**고 명시한다. 1차 서술형 제안서에는 활용 계획을 설명하면 되고, Zindi 기술시험에 GENIE를 사용할 필요는 없다고 별도 표기한다. **GENIE 의무 범위·타 프레임워크 병행 허용범위는 최종 지원 시 FAQ/주최 측에 재확인 권고.**
 
-## 출처
+**구현 전략:** 모델 자체를 새로 학습시키는 제안이 아니라, 오픈소스 LLM+문서 검색+전문 API+인간 검수+도시 UI를 결합한 업무 시스템을 제안한다. Zindi용 3B 이하 모델 제한은 도시 시제품에 자동 적용되는 규정이 아니다. [세부 Q&A·사전 테스트 계획](GENIE_QA_AND_TEST_PLAN.md).\n\n## 출처
 
 - [IEEE GenAI for Good Challenge](https://ieeeht.org/get-involved/funding-opportunities/genai-for-good/)
 - [UN Innovation Network 공모 요약](https://www.uninnovation.network/challenges-calls/genai-for-good-challenge-cities-edition)
